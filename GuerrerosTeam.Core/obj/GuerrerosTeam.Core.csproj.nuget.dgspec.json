@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Josea\\proyectoguerreros\\GuerrerosTeam\\GuerrerosTeam\\GuerrerosTeam.csproj": {}
+    "C:\\Users\\Josea\\proyectoguerreros\\GuerrerosTeam\\GuerrerosTeam.Core\\GuerrerosTeam.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Josea\\proyectoguerreros\\GuerrerosTeam\\GuerrerosTeam\\GuerrerosTeam.csproj": {
+    "C:\\Users\\Josea\\proyectoguerreros\\GuerrerosTeam\\GuerrerosTeam.Core\\GuerrerosTeam.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Josea\\proyectoguerreros\\GuerrerosTeam\\GuerrerosTeam\\GuerrerosTeam.csproj",
-        "projectName": "GuerrerosTeam",
-        "projectPath": "C:\\Users\\Josea\\proyectoguerreros\\GuerrerosTeam\\GuerrerosTeam\\GuerrerosTeam.csproj",
+        "projectUniqueName": "C:\\Users\\Josea\\proyectoguerreros\\GuerrerosTeam\\GuerrerosTeam.Core\\GuerrerosTeam.Core.csproj",
+        "projectName": "GuerrerosTeam.Core",
+        "projectPath": "C:\\Users\\Josea\\proyectoguerreros\\GuerrerosTeam\\GuerrerosTeam.Core\\GuerrerosTeam.Core.csproj",
         "packagesPath": "C:\\Users\\Josea\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Josea\\proyectoguerreros\\GuerrerosTeam\\GuerrerosTeam\\obj\\",
+        "outputPath": "C:\\Users\\Josea\\proyectoguerreros\\GuerrerosTeam\\GuerrerosTeam.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Josea\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,12 +39,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.2.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -58,9 +51,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
