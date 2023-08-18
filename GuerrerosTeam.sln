@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuerrerosTeam", "GuerrerosTeam\GuerrerosTeam.csproj", "{EB613FC8-DE6B-402B-B416-6AEFF3912EC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuerrerosTeam", "GuerrerosTeam\GuerrerosTeam.csproj", "{EB613FC8-DE6B-402B-B416-6AEFF3912EC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuerrerosTeam.Core", "GuerrerosTeam.Core\GuerrerosTeam.Core.csproj", "{54ECD528-86A7-4CCF-83AB-3362F88732B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuerrerosTeam.ApplicationServices", "GuerrerosTeam.ApplicationServices\GuerrerosTeam.ApplicationServices.csproj", "{2A46ED3D-A0BA-4F7F-9BC6-3AF3D9E65A13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{EB613FC8-DE6B-402B-B416-6AEFF3912EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB613FC8-DE6B-402B-B416-6AEFF3912EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB613FC8-DE6B-402B-B416-6AEFF3912EC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54ECD528-86A7-4CCF-83AB-3362F88732B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54ECD528-86A7-4CCF-83AB-3362F88732B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54ECD528-86A7-4CCF-83AB-3362F88732B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54ECD528-86A7-4CCF-83AB-3362F88732B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A46ED3D-A0BA-4F7F-9BC6-3AF3D9E65A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A46ED3D-A0BA-4F7F-9BC6-3AF3D9E65A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A46ED3D-A0BA-4F7F-9BC6-3AF3D9E65A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A46ED3D-A0BA-4F7F-9BC6-3AF3D9E65A13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

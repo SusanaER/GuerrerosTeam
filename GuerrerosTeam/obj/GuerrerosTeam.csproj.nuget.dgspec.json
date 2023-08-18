@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Josea\\proyectoguerreros\\GuerrerosTeam\\GuerrerosTeam\\GuerrerosTeam.csproj": {}
+    "C:\\Users\\joel.ramirez\\Documents\\GitHub\\TeamGuerreros\\GuerrerosTeam\\GuerrerosTeam\\GuerrerosTeam.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Josea\\proyectoguerreros\\GuerrerosTeam\\GuerrerosTeam\\GuerrerosTeam.csproj": {
+    "C:\\Users\\joel.ramirez\\Documents\\GitHub\\TeamGuerreros\\GuerrerosTeam\\GuerrerosTeam\\GuerrerosTeam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Josea\\proyectoguerreros\\GuerrerosTeam\\GuerrerosTeam\\GuerrerosTeam.csproj",
+        "projectUniqueName": "C:\\Users\\joel.ramirez\\Documents\\GitHub\\TeamGuerreros\\GuerrerosTeam\\GuerrerosTeam\\GuerrerosTeam.csproj",
         "projectName": "GuerrerosTeam",
-        "projectPath": "C:\\Users\\Josea\\proyectoguerreros\\GuerrerosTeam\\GuerrerosTeam\\GuerrerosTeam.csproj",
-        "packagesPath": "C:\\Users\\Josea\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Josea\\proyectoguerreros\\GuerrerosTeam\\GuerrerosTeam\\obj\\",
+        "projectPath": "C:\\Users\\joel.ramirez\\Documents\\GitHub\\TeamGuerreros\\GuerrerosTeam\\GuerrerosTeam\\GuerrerosTeam.csproj",
+        "packagesPath": "C:\\Users\\joel.ramirez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joel.ramirez\\Documents\\GitHub\\TeamGuerreros\\GuerrerosTeam\\GuerrerosTeam\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Josea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\joel.ramirez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
