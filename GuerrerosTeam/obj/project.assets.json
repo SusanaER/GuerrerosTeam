@@ -88,6 +88,29 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "GuerrerosTeam.ApplicationServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "GuerrerosTeam.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GuerrerosTeam.ApplicationServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GuerrerosTeam.ApplicationServices.dll": {}
+        }
+      },
+      "GuerrerosTeam.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/GuerrerosTeam.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GuerrerosTeam.Core.dll": {}
+        }
       }
     }
   },
@@ -216,10 +239,22 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "GuerrerosTeam.ApplicationServices/1.0.0": {
+      "type": "project",
+      "path": "../GuerrerosTeam.ApplicationServices/GuerrerosTeam.ApplicationServices.csproj",
+      "msbuildProject": "../GuerrerosTeam.ApplicationServices/GuerrerosTeam.ApplicationServices.csproj"
+    },
+    "GuerrerosTeam.Core/1.0.0": {
+      "type": "project",
+      "path": "../GuerrerosTeam.Core/GuerrerosTeam.Core.csproj",
+      "msbuildProject": "../GuerrerosTeam.Core/GuerrerosTeam.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "GuerrerosTeam.ApplicationServices >= 1.0.0",
+      "GuerrerosTeam.Core >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -249,7 +284,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\joel.ramirez\\Documents\\GitHub\\TeamGuerreros\\GuerrerosTeam\\GuerrerosTeam.ApplicationServices\\GuerrerosTeam.ApplicationServices.csproj": {
+              "projectPath": "C:\\Users\\joel.ramirez\\Documents\\GitHub\\TeamGuerreros\\GuerrerosTeam\\GuerrerosTeam.ApplicationServices\\GuerrerosTeam.ApplicationServices.csproj"
+            },
+            "C:\\Users\\joel.ramirez\\Documents\\GitHub\\TeamGuerreros\\GuerrerosTeam\\GuerrerosTeam.Core\\GuerrerosTeam.Core.csproj": {
+              "projectPath": "C:\\Users\\joel.ramirez\\Documents\\GitHub\\TeamGuerreros\\GuerrerosTeam\\GuerrerosTeam.Core\\GuerrerosTeam.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

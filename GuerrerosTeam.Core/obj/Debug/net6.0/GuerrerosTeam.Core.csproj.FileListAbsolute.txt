@@ -1,0 +1,12 @@
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.Core\bin\Debug\net6.0\GuerrerosTeam.Core.deps.json
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.Core\bin\Debug\net6.0\GuerrerosTeam.Core.dll
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.Core\bin\Debug\net6.0\GuerrerosTeam.Core.pdb
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.Core\obj\Debug\net6.0\GuerrerosTeam.Core.csproj.AssemblyReference.cache
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.Core\obj\Debug\net6.0\GuerrerosTeam.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.Core\obj\Debug\net6.0\GuerrerosTeam.Core.AssemblyInfoInputs.cache
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.Core\obj\Debug\net6.0\GuerrerosTeam.Core.AssemblyInfo.cs
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.Core\obj\Debug\net6.0\GuerrerosTeam.Core.csproj.CoreCompileInputs.cache
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.Core\obj\Debug\net6.0\GuerrerosTeam.Core.dll
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.Core\obj\Debug\net6.0\refint\GuerrerosTeam.Core.dll
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.Core\obj\Debug\net6.0\GuerrerosTeam.Core.pdb
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.Core\obj\Debug\net6.0\ref\GuerrerosTeam.Core.dll

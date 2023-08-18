@@ -1,0 +1,15 @@
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.ApplicationServices\bin\Debug\net6.0\GuerrerosTeam.ApplicationServices.deps.json
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.ApplicationServices\bin\Debug\net6.0\GuerrerosTeam.ApplicationServices.dll
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.ApplicationServices\bin\Debug\net6.0\GuerrerosTeam.ApplicationServices.pdb
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.ApplicationServices\bin\Debug\net6.0\GuerrerosTeam.Core.dll
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.ApplicationServices\bin\Debug\net6.0\GuerrerosTeam.Core.pdb
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.ApplicationServices\obj\Debug\net6.0\GuerrerosTeam.ApplicationServices.csproj.AssemblyReference.cache
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.ApplicationServices\obj\Debug\net6.0\GuerrerosTeam.ApplicationServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.ApplicationServices\obj\Debug\net6.0\GuerrerosTeam.ApplicationServices.AssemblyInfoInputs.cache
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.ApplicationServices\obj\Debug\net6.0\GuerrerosTeam.ApplicationServices.AssemblyInfo.cs
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.ApplicationServices\obj\Debug\net6.0\GuerrerosTeam.ApplicationServices.csproj.CoreCompileInputs.cache
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.ApplicationServices\obj\Debug\net6.0\GuerrerosTeam.ApplicationServices.csproj.CopyComplete
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.ApplicationServices\obj\Debug\net6.0\GuerrerosTeam.ApplicationServices.dll
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.ApplicationServices\obj\Debug\net6.0\refint\GuerrerosTeam.ApplicationServices.dll
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.ApplicationServices\obj\Debug\net6.0\GuerrerosTeam.ApplicationServices.pdb
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.ApplicationServices\obj\Debug\net6.0\ref\GuerrerosTeam.ApplicationServices.dll
