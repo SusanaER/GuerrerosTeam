@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\abela\\Documents\\GitHub\\GuerrerosTeam\\GuerrerosTeam.DataAccess\\GuerrerosTeam.DataAccess.csproj": {}
+    "C:\\Users\\joel.ramirez\\Documents\\GitHub\\TeamGuerreros\\GuerrerosTeam\\GuerrerosTeam.DataAccess\\GuerrerosTeam.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\abela\\Documents\\GitHub\\GuerrerosTeam\\GuerrerosTeam.Core\\GuerrerosTeam.Core.csproj": {
+    "C:\\Users\\joel.ramirez\\Documents\\GitHub\\TeamGuerreros\\GuerrerosTeam\\GuerrerosTeam.Core\\GuerrerosTeam.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abela\\Documents\\GitHub\\GuerrerosTeam\\GuerrerosTeam.Core\\GuerrerosTeam.Core.csproj",
+        "projectUniqueName": "C:\\Users\\joel.ramirez\\Documents\\GitHub\\TeamGuerreros\\GuerrerosTeam\\GuerrerosTeam.Core\\GuerrerosTeam.Core.csproj",
         "projectName": "GuerrerosTeam.Core",
-        "projectPath": "C:\\Users\\abela\\Documents\\GitHub\\GuerrerosTeam\\GuerrerosTeam.Core\\GuerrerosTeam.Core.csproj",
-        "packagesPath": "C:\\Users\\abela\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abela\\Documents\\GitHub\\GuerrerosTeam\\GuerrerosTeam.Core\\obj\\",
+        "projectPath": "C:\\Users\\joel.ramirez\\Documents\\GitHub\\TeamGuerreros\\GuerrerosTeam\\GuerrerosTeam.Core\\GuerrerosTeam.Core.csproj",
+        "packagesPath": "C:\\Users\\joel.ramirez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joel.ramirez\\Documents\\GitHub\\TeamGuerreros\\GuerrerosTeam\\GuerrerosTeam.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\abela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\joel.ramirez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,21 +55,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\abela\\Documents\\GitHub\\GuerrerosTeam\\GuerrerosTeam.DataAccess\\GuerrerosTeam.DataAccess.csproj": {
+    "C:\\Users\\joel.ramirez\\Documents\\GitHub\\TeamGuerreros\\GuerrerosTeam\\GuerrerosTeam.DataAccess\\GuerrerosTeam.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abela\\Documents\\GitHub\\GuerrerosTeam\\GuerrerosTeam.DataAccess\\GuerrerosTeam.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\joel.ramirez\\Documents\\GitHub\\TeamGuerreros\\GuerrerosTeam\\GuerrerosTeam.DataAccess\\GuerrerosTeam.DataAccess.csproj",
         "projectName": "GuerrerosTeam.DataAccess",
-        "projectPath": "C:\\Users\\abela\\Documents\\GitHub\\GuerrerosTeam\\GuerrerosTeam.DataAccess\\GuerrerosTeam.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\abela\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abela\\Documents\\GitHub\\GuerrerosTeam\\GuerrerosTeam.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\joel.ramirez\\Documents\\GitHub\\TeamGuerreros\\GuerrerosTeam\\GuerrerosTeam.DataAccess\\GuerrerosTeam.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\joel.ramirez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joel.ramirez\\Documents\\GitHub\\TeamGuerreros\\GuerrerosTeam\\GuerrerosTeam.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\abela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\joel.ramirez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\abela\\Documents\\GitHub\\GuerrerosTeam\\GuerrerosTeam.Core\\GuerrerosTeam.Core.csproj": {
-                "projectPath": "C:\\Users\\abela\\Documents\\GitHub\\GuerrerosTeam\\GuerrerosTeam.Core\\GuerrerosTeam.Core.csproj"
+              "C:\\Users\\joel.ramirez\\Documents\\GitHub\\TeamGuerreros\\GuerrerosTeam\\GuerrerosTeam.Core\\GuerrerosTeam.Core.csproj": {
+                "projectPath": "C:\\Users\\joel.ramirez\\Documents\\GitHub\\TeamGuerreros\\GuerrerosTeam\\GuerrerosTeam.Core\\GuerrerosTeam.Core.csproj"
               }
             }
           }
@@ -100,6 +100,10 @@
           "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.21, )"
             },
@@ -130,7 +134,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

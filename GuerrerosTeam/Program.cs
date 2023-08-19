@@ -9,11 +9,16 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 //Conection String
-string connectionString = builder.Configuration.GetConnectionString("Default");
+//string connectionString = builder.Configuration.GetConnectionString("Default");
+
+var configuration = builder.Configuration;
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<VideogamesContext>();
 
-builder.Services.AddDbContext<VideogamesContext>(options => options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+builder.Services.AddDbContext<VideogamesContext>(options =>
+{
+    options.UseSqlServer(configuration.GetConnectionString("Default"));
+});
 
 
 builder.Services.AddControllers();

@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\abela\\.nuget\\packages\\": {}
+    "C:\\Users\\joel.ramirez\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\abela\\Documents\\GitHub\\GuerrerosTeam\\GuerrerosTeam.Core\\GuerrerosTeam.Core.csproj",
+      "projectUniqueName": "C:\\Users\\joel.ramirez\\Documents\\GitHub\\TeamGuerreros\\GuerrerosTeam\\GuerrerosTeam.Core\\GuerrerosTeam.Core.csproj",
       "projectName": "GuerrerosTeam.Core",
-      "projectPath": "C:\\Users\\abela\\Documents\\GitHub\\GuerrerosTeam\\GuerrerosTeam.Core\\GuerrerosTeam.Core.csproj",
-      "packagesPath": "C:\\Users\\abela\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\abela\\Documents\\GitHub\\GuerrerosTeam\\GuerrerosTeam.Core\\obj\\",
+      "projectPath": "C:\\Users\\joel.ramirez\\Documents\\GitHub\\TeamGuerreros\\GuerrerosTeam\\GuerrerosTeam.Core\\GuerrerosTeam.Core.csproj",
+      "packagesPath": "C:\\Users\\joel.ramirez\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\joel.ramirez\\Documents\\GitHub\\TeamGuerreros\\GuerrerosTeam\\GuerrerosTeam.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\abela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\joel.ramirez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
