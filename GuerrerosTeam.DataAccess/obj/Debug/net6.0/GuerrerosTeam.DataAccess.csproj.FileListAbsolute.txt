@@ -1,0 +1,17 @@
+C:\Users\abela\Documents\GitHub\GuerrerosTeam\GuerrerosTeam.DataAccess\bin\Debug\net6.0\GuerrerosTeam.DataAccess.deps.json
+C:\Users\abela\Documents\GitHub\GuerrerosTeam\GuerrerosTeam.DataAccess\bin\Debug\net6.0\GuerrerosTeam.DataAccess.runtimeconfig.json
+C:\Users\abela\Documents\GitHub\GuerrerosTeam\GuerrerosTeam.DataAccess\bin\Debug\net6.0\GuerrerosTeam.DataAccess.dll
+C:\Users\abela\Documents\GitHub\GuerrerosTeam\GuerrerosTeam.DataAccess\bin\Debug\net6.0\GuerrerosTeam.DataAccess.pdb
+C:\Users\abela\Documents\GitHub\GuerrerosTeam\GuerrerosTeam.DataAccess\bin\Debug\net6.0\GuerrerosTeam.Core.dll
+C:\Users\abela\Documents\GitHub\GuerrerosTeam\GuerrerosTeam.DataAccess\bin\Debug\net6.0\GuerrerosTeam.Core.pdb
+C:\Users\abela\Documents\GitHub\GuerrerosTeam\GuerrerosTeam.DataAccess\obj\Debug\net6.0\GuerrerosTeam.DataAccess.csproj.AssemblyReference.cache
+C:\Users\abela\Documents\GitHub\GuerrerosTeam\GuerrerosTeam.DataAccess\obj\Debug\net6.0\GuerrerosTeam.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abela\Documents\GitHub\GuerrerosTeam\GuerrerosTeam.DataAccess\obj\Debug\net6.0\GuerrerosTeam.DataAccess.AssemblyInfoInputs.cache
+C:\Users\abela\Documents\GitHub\GuerrerosTeam\GuerrerosTeam.DataAccess\obj\Debug\net6.0\GuerrerosTeam.DataAccess.AssemblyInfo.cs
+C:\Users\abela\Documents\GitHub\GuerrerosTeam\GuerrerosTeam.DataAccess\obj\Debug\net6.0\GuerrerosTeam.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\abela\Documents\GitHub\GuerrerosTeam\GuerrerosTeam.DataAccess\obj\Debug\net6.0\GuerrerosTeam.DataAccess.csproj.CopyComplete
+C:\Users\abela\Documents\GitHub\GuerrerosTeam\GuerrerosTeam.DataAccess\obj\Debug\net6.0\GuerrerosTeam.DataAccess.dll
+C:\Users\abela\Documents\GitHub\GuerrerosTeam\GuerrerosTeam.DataAccess\obj\Debug\net6.0\refint\GuerrerosTeam.DataAccess.dll
+C:\Users\abela\Documents\GitHub\GuerrerosTeam\GuerrerosTeam.DataAccess\obj\Debug\net6.0\GuerrerosTeam.DataAccess.pdb
+C:\Users\abela\Documents\GitHub\GuerrerosTeam\GuerrerosTeam.DataAccess\obj\Debug\net6.0\GuerrerosTeam.DataAccess.genruntimeconfig.cache
+C:\Users\abela\Documents\GitHub\GuerrerosTeam\GuerrerosTeam.DataAccess\obj\Debug\net6.0\ref\GuerrerosTeam.DataAccess.dll

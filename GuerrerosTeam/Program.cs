@@ -1,8 +1,20 @@
 using GuerrerosTeam.ApplicationServices.Videogames;
+using GuerrerosTeam.Core.Videogames;
+using GuerrerosTeam.DataAccess;
+using GuerrerosTeam.DataAccess.Repositories;
+using Microsoft.AspNet.SignalR.Hosting;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+//Conection String
+string connectionString = builder.Configuration.GetConnectionString("Default");
+
+builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<VideogamesContext>();
+
+builder.Services.AddDbContext<VideogamesContext>(options => options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -11,6 +23,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddTransient<IVideogameAppService, VideogameAppService>();
 
+builder.Services.AddTransient<IRepository<int, Videogame>, Repository<int, Videogame>>();
 
 var app = builder.Build();
 
