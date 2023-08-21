@@ -41,6 +41,7 @@ namespace GuerrerosTeam.Controllers.Videogames
         [HttpPut("{id}")]
         public async Task Put(int id, Videogame model)
         {
+            model.Id = id;
             await _videogameService.EditVideogameAsync(model);
         }
 
