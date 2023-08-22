@@ -30,6 +30,16 @@ builder.Services.AddTransient<IVideogameAppService, VideogameAppService>();
 
 builder.Services.AddTransient<IRepository<int, Videogame>, Repository<int, Videogame>>();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("MyCorsPolicy", builder =>
+    {
+        builder.AllowAnyOrigin()
+               .AllowAnyMethod()
+               .AllowAnyHeader();
+    });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -42,7 +52,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
-
+app.UseCors("MyCorsPolicy");
 app.MapControllers();
 
 app.Run();
