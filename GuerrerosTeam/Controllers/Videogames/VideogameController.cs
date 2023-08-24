@@ -1,10 +1,12 @@
 using GuerrerosTeam.ApplicationServices.Videogames;
 using GuerrerosTeam.Core.Videogames;
 using GuerrerosTeam.Models.Videogames;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GuerrerosTeam.Controllers.Videogames
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class VideogameController : ControllerBase
@@ -17,6 +19,7 @@ namespace GuerrerosTeam.Controllers.Videogames
             _videogameService = videogameService;
         }
 
+        [Authorize]
         [HttpGet()]
         public async Task<IEnumerable<Videogame>> GetAll()
         {

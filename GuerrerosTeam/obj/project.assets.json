@@ -1561,6 +1561,16 @@
         "runtime": {
           "bin/placeholder/GuerrerosTeam.DataAccess.dll": {}
         }
+      },
+      "GuerrerosTeam.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/GuerrerosTeam.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GuerrerosTeam.Shared.dll": {}
+        }
       }
     }
   },
@@ -3736,6 +3746,11 @@
       "type": "project",
       "path": "../GuerrerosTeam.DataAccess/GuerrerosTeam.DataAccess.csproj",
       "msbuildProject": "../GuerrerosTeam.DataAccess/GuerrerosTeam.DataAccess.csproj"
+    },
+    "GuerrerosTeam.Shared/1.0.0": {
+      "type": "project",
+      "path": "../GuerrerosTeam.Shared/GuerrerosTeam.Shared.csproj",
+      "msbuildProject": "../GuerrerosTeam.Shared/GuerrerosTeam.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3743,6 +3758,7 @@
       "GuerrerosTeam.ApplicationServices >= 1.0.0",
       "GuerrerosTeam.Core >= 1.0.0",
       "GuerrerosTeam.DataAccess >= 1.0.0",
+      "GuerrerosTeam.Shared >= 1.0.0",
       "Microsoft.AspNet.SignalR.Core >= 2.4.3",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.21",
       "Microsoft.AspNetCore.Identity >= 2.2.0",
@@ -3791,6 +3807,9 @@
             },
             "C:\\Users\\joel.ramirez\\Documents\\GitHub\\TeamGuerreros\\GuerrerosTeam\\GuerrerosTeam.DataAccess\\GuerrerosTeam.DataAccess.csproj": {
               "projectPath": "C:\\Users\\joel.ramirez\\Documents\\GitHub\\TeamGuerreros\\GuerrerosTeam\\GuerrerosTeam.DataAccess\\GuerrerosTeam.DataAccess.csproj"
+            },
+            "C:\\Users\\joel.ramirez\\Documents\\GitHub\\TeamGuerreros\\GuerrerosTeam\\GuerrerosTeam.Shared\\GuerrerosTeam.Shared.csproj": {
+              "projectPath": "C:\\Users\\joel.ramirez\\Documents\\GitHub\\TeamGuerreros\\GuerrerosTeam\\GuerrerosTeam.Shared\\GuerrerosTeam.Shared.csproj"
             }
           }
         }

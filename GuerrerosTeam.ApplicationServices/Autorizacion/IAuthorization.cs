@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GuerrerosTeam.ApplicationServices.Autorizacion
 {
-    internal interface IAuthorization
+    public interface IAuthorization
     {
     }
 }

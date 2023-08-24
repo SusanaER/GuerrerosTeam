@@ -27,6 +27,7 @@
     <ProjectReference Include="..\GuerrerosTeam.ApplicationServices\GuerrerosTeam.ApplicationServices.csproj" />
     <ProjectReference Include="..\GuerrerosTeam.Core\GuerrerosTeam.Core.csproj" />
     <ProjectReference Include="..\GuerrerosTeam.DataAccess\GuerrerosTeam.DataAccess.csproj" />
+    <ProjectReference Include="..\GuerrerosTeam.Shared\GuerrerosTeam.Shared.csproj" />
   </ItemGroup>
 
 </Project>

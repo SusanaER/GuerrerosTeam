@@ -1,0 +1,12 @@
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.Shared\bin\Debug\net6.0\GuerrerosTeam.Shared.deps.json
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.Shared\bin\Debug\net6.0\GuerrerosTeam.Shared.dll
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.Shared\bin\Debug\net6.0\GuerrerosTeam.Shared.pdb
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.Shared\obj\Debug\net6.0\GuerrerosTeam.Shared.csproj.AssemblyReference.cache
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.Shared\obj\Debug\net6.0\GuerrerosTeam.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.Shared\obj\Debug\net6.0\GuerrerosTeam.Shared.AssemblyInfoInputs.cache
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.Shared\obj\Debug\net6.0\GuerrerosTeam.Shared.AssemblyInfo.cs
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.Shared\obj\Debug\net6.0\GuerrerosTeam.Shared.csproj.CoreCompileInputs.cache
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.Shared\obj\Debug\net6.0\GuerrerosTeam.Shared.dll
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.Shared\obj\Debug\net6.0\refint\GuerrerosTeam.Shared.dll
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.Shared\obj\Debug\net6.0\GuerrerosTeam.Shared.pdb
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.Shared\obj\Debug\net6.0\ref\GuerrerosTeam.Shared.dll
