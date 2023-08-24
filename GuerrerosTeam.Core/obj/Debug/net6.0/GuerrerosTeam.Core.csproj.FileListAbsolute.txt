@@ -22,3 +22,15 @@ C:\Users\abela\Documents\GitHub\GuerrerosTeam\GuerrerosTeam.Core\obj\Debug\net6.
 C:\Users\abela\Documents\GitHub\GuerrerosTeam\GuerrerosTeam.Core\obj\Debug\net6.0\refint\GuerrerosTeam.Core.dll
 C:\Users\abela\Documents\GitHub\GuerrerosTeam\GuerrerosTeam.Core\obj\Debug\net6.0\GuerrerosTeam.Core.pdb
 C:\Users\abela\Documents\GitHub\GuerrerosTeam\GuerrerosTeam.Core\obj\Debug\net6.0\ref\GuerrerosTeam.Core.dll
+C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.Core\bin\Debug\net6.0\GuerrerosTeam.Core.deps.json
+C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.Core\bin\Debug\net6.0\GuerrerosTeam.Core.dll
+C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.Core\bin\Debug\net6.0\GuerrerosTeam.Core.pdb
+C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.Core\obj\Debug\net6.0\GuerrerosTeam.Core.csproj.AssemblyReference.cache
+C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.Core\obj\Debug\net6.0\GuerrerosTeam.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.Core\obj\Debug\net6.0\GuerrerosTeam.Core.AssemblyInfoInputs.cache
+C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.Core\obj\Debug\net6.0\GuerrerosTeam.Core.AssemblyInfo.cs
+C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.Core\obj\Debug\net6.0\GuerrerosTeam.Core.csproj.CoreCompileInputs.cache
+C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.Core\obj\Debug\net6.0\GuerrerosTeam.Core.dll
+C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.Core\obj\Debug\net6.0\refint\GuerrerosTeam.Core.dll
+C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.Core\obj\Debug\net6.0\GuerrerosTeam.Core.pdb
+C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.Core\obj\Debug\net6.0\ref\GuerrerosTeam.Core.dll

@@ -10,3 +10,15 @@ C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam
 C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.Shared\obj\Debug\net6.0\refint\GuerrerosTeam.Shared.dll
 C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.Shared\obj\Debug\net6.0\GuerrerosTeam.Shared.pdb
 C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.Shared\obj\Debug\net6.0\ref\GuerrerosTeam.Shared.dll
+C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.Shared\bin\Debug\net6.0\GuerrerosTeam.Shared.deps.json
+C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.Shared\bin\Debug\net6.0\GuerrerosTeam.Shared.dll
+C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.Shared\bin\Debug\net6.0\GuerrerosTeam.Shared.pdb
+C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.Shared\obj\Debug\net6.0\GuerrerosTeam.Shared.csproj.AssemblyReference.cache
+C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.Shared\obj\Debug\net6.0\GuerrerosTeam.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.Shared\obj\Debug\net6.0\GuerrerosTeam.Shared.AssemblyInfoInputs.cache
+C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.Shared\obj\Debug\net6.0\GuerrerosTeam.Shared.AssemblyInfo.cs
+C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.Shared\obj\Debug\net6.0\GuerrerosTeam.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.Shared\obj\Debug\net6.0\GuerrerosTeam.Shared.dll
+C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.Shared\obj\Debug\net6.0\refint\GuerrerosTeam.Shared.dll
+C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.Shared\obj\Debug\net6.0\GuerrerosTeam.Shared.pdb
+C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.Shared\obj\Debug\net6.0\ref\GuerrerosTeam.Shared.dll

@@ -1,10 +1,12 @@
 using GuerrerosTeam;
+using GuerrerosTeam.ApplicationServices.Users;
 using GuerrerosTeam.ApplicationServices.Videogames;
 using GuerrerosTeam.Auth;
 using GuerrerosTeam.Core.Videogames;
 using GuerrerosTeam.DataAccess;
 using GuerrerosTeam.DataAccess.Repositories;
 using GuerrerosTeam.Shared.Config;
+using GymManager.ApplicationServices;
 using Microsoft.AspNet.SignalR.Hosting;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -40,7 +42,7 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(
     })
     .AddEntityFrameworkStores<VideogamesContext>()
     .AddDefaultTokenProviders();
-
+builder.Services.AddAutoMapper(typeof(MapperProfile));
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.Configure<JwtTokenValidationSettings>(builder.Configuration.GetSection("JwtTokenValidationSettings"));
@@ -96,6 +98,7 @@ builder.Services.AddAuthentication(options =>
 builder.Services.AddTransient<IVideogameAppService, VideogameAppService>();
 
 builder.Services.AddTransient<IRepository<int, Videogame>, Repository<int, Videogame>>();
+builder.Services.AddTransient<IUserService, UserService>();
 
 builder.Services.AddCors(options =>
 {
