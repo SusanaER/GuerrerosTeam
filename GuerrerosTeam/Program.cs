@@ -3,6 +3,7 @@ using GuerrerosTeam.Core.Videogames;
 using GuerrerosTeam.DataAccess;
 using GuerrerosTeam.DataAccess.Repositories;
 using Microsoft.AspNet.SignalR.Hosting;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -38,6 +39,19 @@ builder.Services.AddCors(options =>
                .AllowAnyMethod()
                .AllowAnyHeader();
     });
+});
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = builder.Configuration["JwtSettings:Issuer"],
+        ValidAudience = builder.Configuration["JwtSettings:Audience"]
+    };
 });
 
 var app = builder.Build();
