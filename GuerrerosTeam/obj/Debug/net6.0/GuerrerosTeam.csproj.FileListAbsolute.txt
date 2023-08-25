@@ -269,3 +269,9 @@ C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam\bin\Debug\net
 C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam\bin\Debug\net6.0\Swashbuckle.AspNetCore.Newtonsoft.dll
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam\bin\Debug\net6.0\Swashbuckle.AspNetCore.Newtonsoft.dll
