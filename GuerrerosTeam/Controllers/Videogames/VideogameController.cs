@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace GuerrerosTeam.Controllers.Videogames
 {
-    [Authorize]
+    //[Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class VideogameController : ControllerBase
@@ -19,7 +19,7 @@ namespace GuerrerosTeam.Controllers.Videogames
             _videogameService = videogameService;
         }
 
-        [Authorize]
+        //[Authorize(Roles = "API.ReadOnly")]
         [HttpGet()]
         public async Task<IEnumerable<Videogame>> GetAll()
         {
@@ -27,6 +27,7 @@ namespace GuerrerosTeam.Controllers.Videogames
             return videogames;
         }
 
+        //[Authorize(Roles = "API.ReadOnly")]
         [HttpGet("{id}")]
         public async Task<Videogame> GetById(int id)
         {
@@ -34,6 +35,7 @@ namespace GuerrerosTeam.Controllers.Videogames
             return videogame;
         }
 
+        //[Authorize(Roles = "API.ReadOnly")]
         [HttpPost]
         public async Task<Int32> Post(Videogame entity)
         {
@@ -41,13 +43,14 @@ namespace GuerrerosTeam.Controllers.Videogames
             return videogame;
         }
 
+        //[Authorize(Roles = "API.ReadOnly")]
         [HttpPut("{id}")]
         public async Task Put(int id, Videogame model)
         {
             model.Id = id;
             await _videogameService.EditVideogameAsync(model);
         }
-
+        //[Authorize(Roles = "API.ReadOnly")]
         [HttpDelete("{id}")]
         public async Task Delete(int id)
         {

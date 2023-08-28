@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
+using Microsoft.Identity.Web;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
@@ -30,7 +31,7 @@ builder.Services.AddDbContext<VideogamesContext>(options =>
     options.UseSqlServer(configuration.GetConnectionString("Default"));
 });
 
-builder.Services.AddIdentity<IdentityUser, IdentityRole>(
+/*builder.Services.AddIdentity<IdentityUser, IdentityRole>(
     opts =>
     {
         opts.Password.RequireDigit = true;
@@ -41,15 +42,15 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(
         opts.Password.RequiredUniqueChars = 4;
     })
     .AddEntityFrameworkStores<VideogamesContext>()
-    .AddDefaultTokenProviders();
-builder.Services.AddAutoMapper(typeof(MapperProfile));
+    .AddDefaultTokenProviders();*/
+//builder.Services.AddAutoMapper(typeof(MapperProfile));
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.Configure<JwtTokenValidationSettings>(builder.Configuration.GetSection("JwtTokenValidationSettings"));
-builder.Services.AddTransient<IJwtIssuerOptions, JwtIssuerFactory>();
+/*builder.Services.Configure<JwtTokenValidationSettings>(builder.Configuration.GetSection("JwtTokenValidationSettings"));
+builder.Services.AddTransient<IJwtIssuerOptions, JwtIssuerFactory>();*/
 
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(options =>
+builder.Services.AddSwaggerGen(/*options =>
 {
     options.AddSecurityDefinition(JwtBearerDefaults.AuthenticationScheme, new OpenApiSecurityScheme
     {
@@ -74,9 +75,9 @@ builder.Services.AddSwaggerGen(options =>
             new string[]{}
         }
     });
-});
+}*/);
 
-var tokenValidationSettings = builder.Services.BuildServiceProvider().GetService<IOptions<JwtTokenValidationSettings>>().Value;
+/*var tokenValidationSettings = builder.Services.BuildServiceProvider().GetService<IOptions<JwtTokenValidationSettings>>().Value;
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -93,12 +94,15 @@ builder.Services.AddAuthentication(options =>
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(tokenValidationSettings.SecretKey)),
         ClockSkew = TimeSpan.Zero
     };
-});
+});*/
+
+//OIDC Azure
+builder.Services.AddMicrosoftIdentityWebApiAuthentication(configuration);
 
 builder.Services.AddTransient<IVideogameAppService, VideogameAppService>();
 
 builder.Services.AddTransient<IRepository<int, Videogame>, Repository<int, Videogame>>();
-builder.Services.AddTransient<IUserService, UserService>();
+//builder.Services.AddTransient<IUserService, UserService>();
 
 builder.Services.AddCors(options =>
 {
@@ -120,11 +124,25 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.InitDb();
+//app.InitDb();
 
 app.UseHttpsRedirection();
 app.UseAuthentication();
-app.UseAuthorization();
+
+app.Use(async (context, next) =>
+{
+    //verifica si el usuario que ha realizado la solicitud no está autenticado
+    if (!context.User.Identity?.IsAuthenticated ?? false)
+    {
+        // Esto establece el código de estado de respuesta HTTP en 401, que indica "No autorizado
+        context.Response.StatusCode = 401;
+        await context.Response.WriteAsync("Not Authenticated!!");
+    }
+    // pasar la solicitud al siguiente
+    else await next();
+});
+
+//app.UseAuthorization();
 app.UseCors("MyCorsPolicy");
 app.MapControllers();
 
