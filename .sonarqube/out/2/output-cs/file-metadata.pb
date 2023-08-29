@@ -1,0 +1,12 @@
+ã
+ÅC:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.DataAccess\Migrations\20230819014533_tableSql.csutf-8ñ
+äC:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.DataAccess\Migrations\20230819014533_tableSql.Designer.csutf-8á
+~C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.DataAccess\Migrations\20230824214147_init2.csutf-8ì
+áC:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.DataAccess\Migrations\20230824214147_init2.Designer.csutf-8î
+àC:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.DataAccess\Migrations\VideogamesContextModelSnapshot.csutf-8Ä
+wC:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.DataAccess\Repositories\IRepository.csutf-8
+vC:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.DataAccess\Repositories\Repository.csutf-8y
+pC:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.DataAccess\VideogamesContext.csutf-8£
+óC:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.DataAccess\obj\Debug\net6.0\GuerrerosTeam.DataAccess.GlobalUsings.g.csutf-8ß
+õC:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.DataAccess\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8°
+ïC:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.DataAccess\obj\Debug\net6.0\GuerrerosTeam.DataAccess.AssemblyInfo.csutf-8

@@ -1,0 +1,15 @@
+l
+cC:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam\Auth\JwtOptions.csutf-8Ö
+|C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam\Controllers\Authorization\AuthController.csutf-8w
+nC:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam\Controllers\UserController.csutf-8á
+~C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam\Controllers\Videogames\VideogameController.csutf-8m
+dC:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam\InitDbExtensions.csutf-8t
+kC:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam\Models\Login\LoginModel.csutf-8}
+tC:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam\Models\Videogames\VideogameModel.csutf-8k
+[C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam\Program.cswindows-1252w
+nC:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam\Responses\UserListResponse.csutf-8s
+jC:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam\Responses\UserResponse.csutf-8ç
+ÅC:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam\obj\Debug\net6.0\GuerrerosTeam.GlobalUsings.g.csutf-8ú
+êC:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8ä
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam\obj\Debug\net6.0\GuerrerosTeam.AssemblyInfo.csutf-8û
+íC:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam\obj\Debug\net6.0\GuerrerosTeam.MvcApplicationPartsAssemblyInfo.csutf-8

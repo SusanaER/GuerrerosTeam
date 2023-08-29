@@ -1,0 +1,8 @@
+﻿C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.DataAccess\Migrations\20230819014533_tableSql.cs
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.DataAccess\Migrations\20230819014533_tableSql.Designer.cs
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.DataAccess\Migrations\20230824214147_init2.cs
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.DataAccess\Migrations\20230824214147_init2.Designer.cs
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.DataAccess\Migrations\VideogamesContextModelSnapshot.cs
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.DataAccess\Repositories\IRepository.cs
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.DataAccess\Repositories\Repository.cs
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.DataAccess\VideogamesContext.cs

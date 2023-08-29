@@ -1,0 +1,14 @@
+ç
+ÉC:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.ApplicationServices\Autorizacion\IAuthorization.csutf-8à
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.ApplicationServices\DTO\UserDto\EditUserDto.csutf-8Ö
+|C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.ApplicationServices\DTO\UserDto\LoginDto.csutf-8á
+~C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.ApplicationServices\DTO\UserDto\NewUserDto.csutf-8Ñ
+{C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.ApplicationServices\DTO\UserDto\UserDto.csutf-8~
+uC:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.ApplicationServices\MapperProfile.csutf-8É
+zC:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.ApplicationServices\Users\IUserService.csutf-8Ç
+yC:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.ApplicationServices\Users\UserService.csutf-8ë
+áC:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.ApplicationServices\Videogames\IVideogameAppService.csutf-8ê
+ÜC:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.ApplicationServices\Videogames\VideogameAppService.csutf-8µ
+©C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.ApplicationServices\obj\Debug\net6.0\GuerrerosTeam.ApplicationServices.GlobalUsings.g.csutf-8∞
+§C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.ApplicationServices\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8≥
+ßC:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam.ApplicationServices\obj\Debug\net6.0\GuerrerosTeam.ApplicationServices.AssemblyInfo.csutf-8

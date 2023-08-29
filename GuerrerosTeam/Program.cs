@@ -31,6 +31,7 @@ builder.Services.AddDbContext<VideogamesContext>(options =>
     options.UseSqlServer(configuration.GetConnectionString("Default"));
 });
 
+#region IdentityUser drom DB
 /*builder.Services.AddIdentity<IdentityUser, IdentityRole>(
     opts =>
     {
@@ -44,6 +45,7 @@ builder.Services.AddDbContext<VideogamesContext>(options =>
     .AddEntityFrameworkStores<VideogamesContext>()
     .AddDefaultTokenProviders();*/
 //builder.Services.AddAutoMapper(typeof(MapperProfile));
+#endregion
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 /*builder.Services.Configure<JwtTokenValidationSettings>(builder.Configuration.GetSection("JwtTokenValidationSettings"));
@@ -77,6 +79,7 @@ builder.Services.AddSwaggerGen(/*options =>
     });
 }*/);
 
+#region JWT Configuration
 /*var tokenValidationSettings = builder.Services.BuildServiceProvider().GetService<IOptions<JwtTokenValidationSettings>>().Value;
 builder.Services.AddAuthentication(options =>
 {
@@ -95,6 +98,7 @@ builder.Services.AddAuthentication(options =>
         ClockSkew = TimeSpan.Zero
     };
 });*/
+#endregion
 
 //OIDC Azure
 builder.Services.AddMicrosoftIdentityWebApiAuthentication(configuration);
