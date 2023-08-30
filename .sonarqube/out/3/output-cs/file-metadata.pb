@@ -1,0 +1,14 @@
+~
+uC:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.ApplicationServices\Autorizacion\IAuthorization.csutf-8z
+qC:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.ApplicationServices\DTO\UserDto\EditUserDto.csutf-8w
+nC:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.ApplicationServices\DTO\UserDto\LoginDto.csutf-8y
+pC:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.ApplicationServices\DTO\UserDto\NewUserDto.csutf-8v
+mC:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.ApplicationServices\DTO\UserDto\UserDto.csutf-8p
+gC:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.ApplicationServices\MapperProfile.csutf-8u
+lC:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.ApplicationServices\Users\IUserService.csutf-8t
+kC:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.ApplicationServices\Users\UserService.csutf-8Ç
+yC:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.ApplicationServices\Videogames\IVideogameAppService.csutf-8Å
+xC:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.ApplicationServices\Videogames\VideogameAppService.csutf-8ß
+õC:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.ApplicationServices\obj\Debug\net6.0\GuerrerosTeam.ApplicationServices.GlobalUsings.g.csutf-8¢
+ñC:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.ApplicationServices\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8•
+ôC:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam.ApplicationServices\obj\Debug\net6.0\GuerrerosTeam.ApplicationServices.AssemblyInfo.csutf-8

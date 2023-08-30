@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuerrerosTeam.ApplicationSe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuerrerosTeam.DataAccess", "GuerrerosTeam.DataAccess\GuerrerosTeam.DataAccess.csproj", "{5A9E27E3-EF95-4157-9400-4E0FB390140B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuerrerosTeam.Shared", "GuerrerosTeam.Shared\GuerrerosTeam.Shared.csproj", "{941189A8-E878-48E6-B99E-80AF25D53FCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuerrerosTeam.Shared", "GuerrerosTeam.Shared\GuerrerosTeam.Shared.csproj", "{941189A8-E878-48E6-B99E-80AF25D53FCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuerrerosTeam.UnitTest", "GuerrerosTeam.UnitTest\GuerrerosTeam.UnitTest.csproj", "{E99E3FD3-8A4F-49C1-A956-C577FCDADECF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{941189A8-E878-48E6-B99E-80AF25D53FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{941189A8-E878-48E6-B99E-80AF25D53FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{941189A8-E878-48E6-B99E-80AF25D53FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E99E3FD3-8A4F-49C1-A956-C577FCDADECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E99E3FD3-8A4F-49C1-A956-C577FCDADECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E99E3FD3-8A4F-49C1-A956-C577FCDADECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E99E3FD3-8A4F-49C1-A956-C577FCDADECF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

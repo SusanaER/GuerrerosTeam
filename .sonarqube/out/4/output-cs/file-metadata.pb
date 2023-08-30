@@ -1,0 +1,15 @@
+^
+UC:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam\Auth\JwtOptions.csutf-8w
+nC:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam\Controllers\Authorization\AuthController.csutf-8i
+`C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam\Controllers\UserController.csutf-8y
+pC:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam\Controllers\Videogames\VideogameController.csutf-8_
+VC:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam\InitDbExtensions.csutf-8f
+]C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam\Models\Login\LoginModel.csutf-8o
+fC:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam\Models\Videogames\VideogameModel.csutf-8]
+MC:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam\Program.cswindows-1252i
+`C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam\Responses\UserListResponse.csutf-8e
+\C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam\Responses\UserResponse.csutf-8~
+sC:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam\obj\Debug\net6.0\GuerrerosTeam.GlobalUsings.g.csutf-8é
+ÇC:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8|
+qC:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam\obj\Debug\net6.0\GuerrerosTeam.AssemblyInfo.csutf-8ê
+ÑC:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam\obj\Debug\net6.0\GuerrerosTeam.MvcApplicationPartsAssemblyInfo.csutf-8
