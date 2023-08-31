@@ -28,7 +28,9 @@ var configuration = builder.Configuration;
 
 builder.Services.AddDbContext<VideogamesContext>(options =>
 {
-    options.UseSqlServer(configuration.GetConnectionString("Default"));
+    var config = builder.Configuration.GetSection("Videogames");
+    var connectionString = config.GetValue<string>("ConnectionString");
+    options.UseSqlServer(connectionString);
 });
 
 /*builder.Services.AddIdentity<IdentityUser, IdentityRole>(
