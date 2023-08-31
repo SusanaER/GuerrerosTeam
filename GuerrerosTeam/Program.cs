@@ -1,3 +1,4 @@
+using Azure.Identity;
 using GuerrerosTeam;
 using GuerrerosTeam.ApplicationServices.Users;
 using GuerrerosTeam.ApplicationServices.Videogames;
@@ -15,6 +16,8 @@ using Microsoft.Extensions.Options;
 using Microsoft.Identity.Web;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using System.Diagnostics;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -26,13 +29,38 @@ var configuration = builder.Configuration;
 
 //builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<VideogamesContext>();
 
+using (var store = new X509Store(StoreName.My,
+                       StoreLocation.CurrentUser))
+{
+    //Obtenemos el Certificado
+    store.Open(OpenFlags.ReadOnly);
+    var certs = store.Certificates
+        .Find(X509FindType.FindByThumbprint, builder.Configuration["AzureADCertThumbprint"], false);
+
+    try
+    {
+        //Nos conectamos a Azure Key Vault API
+        var certificados = certs.OfType<X509Certificate2>();
+        configuration.AddAzureKeyVault($"https://{builder.Configuration["KeyVaultName"]}.vault.azure.net/",
+                                builder.Configuration["AzureADApplicationId"], certificados.First());
+    }
+    catch (Exception e)
+    {
+        throw e;
+    }
+
+    store.Close();
+}
+
 builder.Services.AddDbContext<VideogamesContext>(options =>
 {
-    var config = builder.Configuration.GetSection("Videogames");
-    var connectionString = config.GetValue<string>("ConnectionString");
+    //connectionString
+    //var config = builder.Configuration.GetSection("Videogames");
+    var connectionString = configuration["connetionDefault"];
     options.UseSqlServer(connectionString);
 });
 
+#region Config Identity
 /*builder.Services.AddIdentity<IdentityUser, IdentityRole>(
     opts =>
     {
@@ -46,13 +74,16 @@ builder.Services.AddDbContext<VideogamesContext>(options =>
     .AddEntityFrameworkStores<VideogamesContext>()
     .AddDefaultTokenProviders();*/
 //builder.Services.AddAutoMapper(typeof(MapperProfile));
+#endregion
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 /*builder.Services.Configure<JwtTokenValidationSettings>(builder.Configuration.GetSection("JwtTokenValidationSettings"));
 builder.Services.AddTransient<IJwtIssuerOptions, JwtIssuerFactory>();*/
 
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(/*options =>
+builder.Services.AddSwaggerGen(
+#region JWT schema
+    /*options =>
 {
     options.AddSecurityDefinition(JwtBearerDefaults.AuthenticationScheme, new OpenApiSecurityScheme
     {
@@ -77,8 +108,11 @@ builder.Services.AddSwaggerGen(/*options =>
             new string[]{}
         }
     });
-}*/);
+}*/
+#endregion
+    );
 
+#region JWT
 /*var tokenValidationSettings = builder.Services.BuildServiceProvider().GetService<IOptions<JwtTokenValidationSettings>>().Value;
 builder.Services.AddAuthentication(options =>
 {
@@ -97,7 +131,7 @@ builder.Services.AddAuthentication(options =>
         ClockSkew = TimeSpan.Zero
     };
 });*/
-
+#endregion
 //OIDC Azure
 builder.Services.AddMicrosoftIdentityWebApiAuthentication(configuration);
 

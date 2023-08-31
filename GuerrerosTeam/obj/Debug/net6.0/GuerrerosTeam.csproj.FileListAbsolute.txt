@@ -319,3 +319,11 @@ C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam\bin\Debug\net
 C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam\bin\Debug\net6.0\System.Security.Cryptography.Xml.dll
 C:\Users\Josea\Documents\guerrerosteam\GuerrerosTeam\GuerrerosTeam\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam\bin\Debug\net6.0\Microsoft.Azure.KeyVault.dll
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam\bin\Debug\net6.0\Microsoft.Azure.KeyVault.WebKey.dll
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam\bin\Debug\net6.0\Microsoft.Azure.Services.AppAuthentication.dll
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam\bin\Debug\net6.0\Microsoft.Extensions.Configuration.AzureKeyVault.dll
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam\bin\Debug\net6.0\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam\bin\Debug\net6.0\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam\bin\Debug\net6.0\Microsoft.Rest.ClientRuntime.dll
+C:\Users\joel.ramirez\Documents\GitHub\TeamGuerreros\GuerrerosTeam\GuerrerosTeam\bin\Debug\net6.0\Microsoft.Rest.ClientRuntime.Azure.dll
